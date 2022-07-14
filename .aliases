@@ -1,3 +1,15 @@
-alias ghpr='gh pr create --base development --web'
-alias gcd='git checkout development'
-alias cat='batcat'
+#Ruby
+alias gemwipe='gem uninstall -aIx'
+alias be="bundle exec"
+alias bu="bundle update"
+alias bi="bundle install"
+#JS
+alias yarnit="yarn build"
+alias yr="yarn"
+#System
+alias cl="clear"
+alias ll="ls -lahG"
+alias lp="ls -p"
+alias lm="ls -la | more"
+alias dt="ditto"
+alias batl="bat --paging=never -l log"
